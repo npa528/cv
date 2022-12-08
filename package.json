@@ -1,11 +1,13 @@
 {
-  "homepage":"http://npa528.github.io/cv",
+  "homepage": "http://npa528.github.io/cv",
   "name": "Resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-pdf": "^6.2.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
@@ -15,7 +17,6 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
