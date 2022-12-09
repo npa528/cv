@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "emailjs-com": "^3.2.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-pdf": "^6.2.0",

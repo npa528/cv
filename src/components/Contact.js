@@ -2,33 +2,35 @@ import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 // class Contact extends Component {
-function Contact(resumeData) {
-  let [Name, setname] = useState("");
+export const Contact = (resumeData) => {
   const form = useRef();
-
   if (resumeData) {
     var message = resumeData.contactmessage;
   }
 
   const sendEmail = (e) => {
     e.preventDefault();
+
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
         process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
+        e.target,
         process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
-          alert("message sent successfully...");
           console.log(result.text);
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    e.target.reset();
   };
+
+  let [Name, setname] = useState("");
 
   const handleChange = (event) => {
     setname(event.target.value);
@@ -56,11 +58,11 @@ function Contact(resumeData) {
       <div className="row">
         <div className="eight columns">
           <form
-            ref={form}
-            action=""
-            method="post"
-            id="contactForm"
-            name="contactForm"
+            // ref={form}
+            // action=""
+            // method="post"
+            // id="contactForm"
+            // name="contactForm"
             onSubmit={sendEmail}
           >
             <fieldset>
@@ -73,7 +75,7 @@ function Contact(resumeData) {
                   defaultValue=""
                   size="35"
                   id="contactName"
-                  name="contactName"
+                  name="name"
                   onChange={handleChange}
                 />
               </div>
@@ -87,7 +89,7 @@ function Contact(resumeData) {
                   defaultValue=""
                   size="35"
                   id="contactEmail"
-                  name="contactEmail"
+                  name="email"
                   onChange={handleChange}
                 />
               </div>
@@ -112,7 +114,7 @@ function Contact(resumeData) {
                   cols="50"
                   rows="15"
                   id="contactMessage"
-                  name="contactMessage"
+                  name="message"
                 ></textarea>
               </div>
 
@@ -135,6 +137,4 @@ function Contact(resumeData) {
     </section>
   );
   // }
-}
-
-export default Contact;
+};
