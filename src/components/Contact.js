@@ -93,19 +93,6 @@ export const Contact = (resumeData) => {
                   onChange={handleChange}
                 />
               </div>
-              {/* 
-                <div>
-                  <label htmlFor="contactSubject">Subject</label>
-                  <input
-                    type="text"
-                    defaultValue=""
-                    size="35"
-                    id="contactSubject"
-                    name="contactSubject"
-                    onChange={handleChange}
-                  />
-                </div> */}
-
               <div>
                 <label htmlFor="contactMessage">
                   Message <span className="required">*</span>
