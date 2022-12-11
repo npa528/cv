@@ -1,11 +1,10 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-// class Contact extends Component {
-export const Contact = (resumeData) => {
+function Contact(props) {
   const form = useRef();
-  if (resumeData) {
-    var message = resumeData.contactmessage;
+  if (props.resumeData) {
+    var message = props.resumeData.contactmessage;
   }
 
   const sendEmail = (e) => {
@@ -48,10 +47,6 @@ export const Contact = (resumeData) => {
         <div className="ten columns">
           <p className="lead">{message}</p>
           <br />
-          <p className="lead warning">
-            Warning: Contact form not yet configured, please contact me via
-            normal email for now
-          </p>
         </div>
       </div>
 
@@ -124,4 +119,6 @@ export const Contact = (resumeData) => {
     </section>
   );
   // }
-};
+}
+
+export default Contact;

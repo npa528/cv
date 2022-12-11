@@ -10,7 +10,7 @@ let resumeData = {
   bio:
     "I am software developer interested in Blockchain ecosyste, security and coding in general. Through my career, I developed applications using different tools and programming languages. I have confidence of using something new to me and with hard work and research I can deliver results quickly. I would like to have the chance to work in a Web 3.0 company that uses Blockchain technology, develops smart contract or any other company that wants a Backend developer with some experience in Java EE.",
   contactmessage:
-    "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
 
   roleDescription:
     "I like coding in various parts of development and I like to learn about new technologies.",
