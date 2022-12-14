@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cv/static/media/NikolaosPapadakis-CV.5dd4c5be.pdf"
   },
   {
-    "revision": "7a11fb3d823061d5dbb104a643351fb1",
+    "revision": "c2fb984ecb09ac6603f0543cf382d735",
     "url": "/cv/index.html"
   }
 ];
