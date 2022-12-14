@@ -5,6 +5,11 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
+import ReactGA from "react-ga4";
+
+const TRACKING_ID = "G-LEVMTTBD7Y";
+ReactGA.initialize(TRACKING_ID);
+ReactGA.send("pageview");
 
 class App extends Component {
   render() {
