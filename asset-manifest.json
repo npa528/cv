@@ -1,7 +1,7 @@
 {
   "main.css": "/cv/static/css/main.d8535074.chunk.css",
-  "main.js": "/cv/static/js/main.65c57748.chunk.js",
-  "main.js.map": "/cv/static/js/main.65c57748.chunk.js.map",
+  "main.js": "/cv/static/js/main.1f79db9f.chunk.js",
+  "main.js.map": "/cv/static/js/main.1f79db9f.chunk.js.map",
   "static/js/1.cdfa6f38.chunk.js": "/cv/static/js/1.cdfa6f38.chunk.js",
   "static/js/1.cdfa6f38.chunk.js.map": "/cv/static/js/1.cdfa6f38.chunk.js.map",
   "runtime~main.js": "/cv/static/js/runtime~main.084ac45a.js",
@@ -9,6 +9,6 @@
   "static/media/NikolaosPapadakis-CV.pdf": "/cv/static/media/NikolaosPapadakis-CV.5dd4c5be.pdf",
   "static/css/main.d8535074.chunk.css.map": "/cv/static/css/main.d8535074.chunk.css.map",
   "index.html": "/cv/index.html",
-  "precache-manifest.a0fcce006aed5ddc29ac5f799f158a1b.js": "/cv/precache-manifest.a0fcce006aed5ddc29ac5f799f158a1b.js",
+  "precache-manifest.492a5148db63864cf9f5e32d86184c34.js": "/cv/precache-manifest.492a5148db63864cf9f5e32d86184c34.js",
   "service-worker.js": "/cv/service-worker.js"
 }
