@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dd1ba878c765fd5039c1",
+    "revision": "65c5774883f10ea5d5b5",
     "url": "/cv/static/css/main.d8535074.chunk.css"
   },
   {
-    "revision": "dd1ba878c765fd5039c1",
-    "url": "/cv/static/js/main.dd1ba878.chunk.js"
+    "revision": "65c5774883f10ea5d5b5",
+    "url": "/cv/static/js/main.65c57748.chunk.js"
   },
   {
     "revision": "cdfa6f380d4f31d7e577",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/cv/static/media/NikolaosPapadakis-CV.5dd4c5be.pdf"
   },
   {
-    "revision": "2daa31778b8f96b39f2feb79f0c64aaa",
+    "revision": "d85a75ef9c9011b11161be927b76cb0e",
     "url": "/cv/index.html"
   }
 ];
