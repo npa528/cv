@@ -126,7 +126,7 @@ let resumeData = {
     {
       name: "blockchain-exchange",
       description: "blockchain exchange",
-      imgurl: "images/portfolio/blockchain-exchange.png",
+      img: "blockchain-exchange.png",
       url: "https://npa528.github.io/blockchain-exchange/",
     },
   ],
