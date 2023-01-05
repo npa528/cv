@@ -8,7 +8,7 @@ let resumeData = {
   resumedownload:
     "https://drive.google.com/drive/folders/1lAq9qDiwdTdIEz5hvrxp0ss4wbRNbKjD",
   bio:
-    "I am software developer interested in Blockchain ecosyste, security and coding in general. Through my career, I developed applications using different tools and programming languages. I have confidence of using something new to me and with hard work and research I can deliver results quickly. I would like to have the chance to work in a Web 3.0 company that uses Blockchain technology, develops smart contract or any other company that wants a Backend developer with some experience in Java EE.",
+    "I am software developer interested in Blockchain ecosystem, security and coding in general. Through my career, I developed applications using different tools and programming languages. I have confidence of using something new to me and with hard work and research I can deliver results quickly. I would like to have the chance to work in a Web 3.0 company that uses Blockchain technology, develops smart contract or any other company that wants a Backend developer with some experience in Java EE.",
   contactmessage:
     "Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
 
@@ -120,6 +120,14 @@ let resumeData = {
       description:
         "Chai is a BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.",
       image: "chai.png",
+    },
+  ],
+  portfolio: [
+    {
+      name: "blockchain-exchange",
+      description: "blockchain exchange",
+      imgurl: "images/portfolio/blockchain-exchange.png",
+      url: "https://npa528.github.io/blockchain-exchange/",
     },
   ],
 };
