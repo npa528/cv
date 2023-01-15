@@ -17,11 +17,7 @@ export default class Porfolio extends Component {
                   return (
                     <div className="columns portfolio-item">
                       <div className="item-wrap">
-                        <a
-                          href="https://npa528.github.io/blockchain-exchange/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
+                        <a href={project.url} target="_blank" rel="noreferrer">
                           <img src={projectImage} className="item-img" />
                           <div className="overlay">
                             <div className="portfolio-item-meta">

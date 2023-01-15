@@ -129,6 +129,12 @@ let resumeData = {
       img: "blockchain-exchange.png",
       url: "https://npa528.github.io/blockchain-exchange/",
     },
+    {
+      name: "nft-marketplace",
+      description: "NFT marketplace using The Graph",
+      img: "nftmarketplace.png",
+      url: "https://npa528.github.io/nextjs-nft-marketplace-thegraph/",
+    },
   ],
 };
 

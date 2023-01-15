@@ -8,11 +8,7 @@ class About extends Component {
       var profilepic = "images/" + resumeData.image;
       var bio = resumeData.bio;
       var city = resumeData.address.city;
-      var state = resumeData.address.state;
-      var zip = resumeData.address.zip;
-      var phone = resumeData.phone;
       var email = resumeData.email;
-      var resumedownload = resumeData.resumedownload;
     }
 
     return (
