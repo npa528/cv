@@ -127,7 +127,7 @@ let resumeData = {
       name: "blockchain-exchange",
       description: "blockchain exchange",
       img: "blockchain-exchange.png",
-      url: "https://npa528.github.io/blockchain-exchange/",
+      url: "https://npa528.github.io/blockchain-exchange-v2/",
     },
     {
       name: "nft-marketplace",
