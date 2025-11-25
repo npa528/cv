@@ -134,6 +134,11 @@ let resumeData = {
       description: "NFT marketplace using The Graph",
       img: "nftmarketplace.png",
       url: "https://npa528.github.io/nextjs-nft-marketplace-thegraph/",
+    },{
+      name: "earthquakes-greece",
+      description: "Earthquake events in Greece",
+      img: "earthquakesgreece.png",
+      url: "https://earthquakes-greece-next.vercel.app/",
     },
   ],
 };
